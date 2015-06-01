@@ -1,0 +1,220 @@
+html
+{
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: small;
+	background-color: #f4f5c8;
+}
+
+img
+{
+	display: block;
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Definie forme des menus*/
+
+	#menu_vis
+	{
+		width: 100%;
+		list-style-type: none; /*enlève les points de liste*/ 
+		margin-top: -3em;
+		padding-left: 12em;
+		text-align: center;
+	}
+
+	#menu_vis li
+	{
+		float: left;
+		width: 112.5px;
+	}
+
+	#menu_vis li a
+	{
+	 	color:#e5f24a;
+	 	background-color:#6689CC;
+	 	display:block; /*prends toute l'espace a gauche et a droite*/
+	 	padding:5px 5px; /*placement du texte hauteur largueur */
+	 	text-decoration: none;
+	}
+
+
+	#menu_mem
+	{
+		width: 100%;
+		list-style-type: none;
+		margin-top: -3em;
+		padding-left: 10em;
+		text-align: center;
+	}
+
+	#menu_mem li
+	{
+		float: left;
+		width: 100px;
+	}
+
+	#menu_mem li a
+	{
+	 	color:#e5f24a;
+	 	background-color:#6689CC;
+	  	display:block; /*prends toute l'espace a gauche et a droite*/
+	 	padding:5px 5px; /*placement du texte hauteur largueur */
+	 	text-decoration:none;	
+	}
+
+/*Definition page standard*/	
+
+	#page 
+	{
+		width: 900px; /*larguer page*/
+		height: 100%; /*hauteur page*/
+		margin: auto; /*centre automatiquement la page*/
+	}
+
+	#corps
+	{
+		margin-top:7em;
+		border-radius: 10px 10px 0 0;
+		background-color:#edef9c; /*arrondie angle corps */
+		box-shadow:0px 0px 23px #cacc7b; 
+		padding-top:5em; /*marge entre element parent et enfant*/
+	}
+
+	#contenu
+	{
+		background-color: #f6f4ca;
+		margin-right: 1em;
+		margin-left: 1em;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 1em;
+	}
+
+	#contenu p
+	{
+		text-align: center;
+	}
+
+#accueil
+{
+	text-align: center;
+	color:#6689CC;
+}
+/*Définition des titres*/	
+
+	h1
+	{
+		text-align: center;
+		margin-top: 2em;
+		padding-top: 1em;
+		color: #6689CC;
+	}
+
+	h2
+	{
+		text-align: center;
+		color: #6689CC;
+		margin-top: 2em;
+		padding-top: 1em;
+	}
+
+	h4
+	{
+		margin: 0;
+		margin-left: 1em;
+		margin-bottom:-4em;
+		color: #6689CC;
+	}
+
+/*Definition forme des formulaires*/
+	fieldset
+	{
+		border: 0; /* enlève bordure fieldset*/
+	}
+
+	label, input
+	{
+		display: block; /*prends toute la largeur disponible et s'affiche avec un saut de ligne avant et après.*/
+	}
+
+	input
+	{
+		margin-bottom: -1em;
+	}
+
+	#checkbox
+	{
+		text-align: center;
+	}
+
+	label
+	{
+		padding-left: 5px; /*decale intuté des champs dans les*/
+	}
+
+/*Definie la forme des tableau*/
+
+	table 
+	{
+		vertical-align: middle;
+		margin: auto;
+		margin-top:2em; /*Marge par rappot au titre*/
+		padding : auto;
+		background-color: #6689CC;
+	    border:none;
+	    border-collapse:collapse;/*fusionne bordue tableau*/
+	    border-radius: 10px 10px 0 0;
+	}
+
+	td, th 
+	{
+		padding: 5px; /*Marge entre ligne*/
+		border:none; /*Enlève les bordures*/
+		border-collapse:collapse;
+		color: #333; /*couleur du texte*/
+		text-align: center;  /*alignement du texte*/
+	}
+
+	th 
+	{
+		line-height: 20px; /*hauteur de la ligne contenant les entêtes*/
+		background-color:#6689CC; /*couleur entêtes*/
+		border-radius: 10px 10px 0 0; /*arrondie bord*/
+	}
+
+	td 
+	{
+		line-height: 20px; /*Hauteur de chaque ligne*/
+		border-bottom: 2px solid #f6f4ca; 
+		border-top: 2px solid #f6f4ca; /*ecart entre entête et première ligne*/
+		background-color:#edef9c; /*couleur des lignes*/
+		color: #6689CC;
+	}
+
+
+/*Définition du footer*/
+
+	#footer
+	{
+		width: 100%;
+		list-style-type: none;
+		text-align: center;
+		margin-bottom: 1em;
+		padding:0;
+	}
+
+	#footer li
+	{
+		display: inline;
+		width: 150px;
+	}
+
+	#footer li a:link, #footer li a:visited
+	{
+		text-decoration: none;
+		color:#cd1b1b;
+	}
+
